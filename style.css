@@ -16,19 +16,23 @@ h3 {
 
 h1 {
   font-size: 96px;
+  font-family: "Oxygen", sans-serif;
 }
 
 h2 {
   font-size: 48px;
+  font-family: "Spartan", sans-serif;
 }
 
 h3 {
   font-size: 24px;
+  font-family: "Spartan", sans-serif;
   opacity: 0.7;
 }
 
 p {
   font-size: 18px;
+  font-family: "Spartan", sans-serif;
   line-height: 1.5;
 }
 
