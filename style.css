@@ -15,7 +15,6 @@ h3 {
 h1 {
   font-size: 96px;
   font-family: var(--primary-font);
-  color: var(--secondary-color);
 }
 
 h2 {
@@ -34,6 +33,10 @@ p {
   font-size: 18px;
   font-family: var(--basic-font);
   line-height: 1.5;
+}
+
+ul {
+  padding-left: 0;
 }
 
 .navigation-links {
@@ -106,6 +109,37 @@ p {
 .hero {
   background-color: #ffde7d;
   background-image: url(images/background.png);
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
+.hero h1 {
+  color: var(--secondary-color);
+}
+
+.about-me {
+  margin-top: 100px;
+}
+
+.about-me h1 {
+  color: var(--primary-color);
+}
+
+.social-buttons,
+.social-buttons li {
+  display: inline-flex;
+}
+.social-buttons {
+  width: 100%;
+  list-style: none;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+.social-buttons a {
+  width: 100%;
+  padding: 10px;
+  text-decoration: none;
+  color: var(--primary-color);
 }
