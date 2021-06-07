@@ -143,3 +143,8 @@ ul {
   text-decoration: none;
   color: var(--primary-color);
 }
+
+.my-photo {
+  border-radius: 20px;
+  margin-left: 50px;
+}
