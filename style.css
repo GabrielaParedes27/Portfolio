@@ -119,6 +119,8 @@ ul {
 
 .about-me {
   margin-top: 100px;
+  text-align: center;
+  padding: 0;
 }
 
 .about-me h1 {
@@ -146,5 +148,4 @@ ul {
 
 .my-photo {
   border-radius: 20px;
-  margin-left: 50px;
 }
