@@ -63,6 +63,12 @@ form {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+  transition: all 150ms ease-in-out;
+}
+
+.primary-link:hover {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
 }
 
 .contact-me {
@@ -73,6 +79,12 @@ form {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+  transition: all 150ms ease-in-out;
+}
+
+.contact-me:hover {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
 }
 
 .homepage-link {
@@ -87,18 +99,6 @@ form {
 
 .about-paragraphs p {
   margin: 10px;
-}
-
-.email-link {
-  display: flex;
-  justify-content: center;
-  color: var(--primary-color);
-  font-size: 28px;
-  text-decoration: none;
-}
-
-.email-link:hover {
-  text-decoration: underline;
 }
 
 @media (max-width: 576px) {
@@ -143,14 +143,22 @@ form {
   list-style: none;
   flex-wrap: wrap;
   margin-top: 50px;
-  font-size: 30px;
+  font-size: 18px;
 }
 
 .social-buttons a {
-  width: 100%;
-  padding: 10px;
+  margin: 0 20px;
+  padding: 10px 14px;
   text-decoration: none;
+  border-radius: 50%;
   color: var(--primary-color);
+  background-color: var(--secondary-color);
+  transition: all 150ms ease-in-out;
+}
+
+.social-buttons a:hover {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
 }
 
 .my-photo {
