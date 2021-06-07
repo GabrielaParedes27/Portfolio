@@ -39,6 +39,12 @@ ul {
   padding-left: 0;
 }
 
+form {
+  font-size: 18px;
+  font-family: var(--basic-font);
+  line-height: 1.5;
+}
+
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -59,13 +65,14 @@ ul {
   color: white;
 }
 
-.secondary-link {
+.contact-me {
   border-radius: 4px;
-  padding: 20px 15px;
+  padding: 10px 10px;
   text-decoration: none;
   text-transform: capitalize;
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
 }
 
 .homepage-link {
